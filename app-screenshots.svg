@@ -1,0 +1,35 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Login Screen -->
+    <g transform="translate(50, 50)">
+        <rect x="0" y="0" width="300" height="200" fill="#f8f9fa" stroke="#dee2e6"/>
+        <text x="120" y="30" font-family="Arial" font-size="16" fill="#212529">Login Screen</text>
+        <rect x="20" y="50" width="260" height="30" fill="white" stroke="#ced4da"/>
+        <text x="30" y="70" font-family="Arial" font-size="12" fill="#6c757d">Username</text>
+        <rect x="20" y="90" width="260" height="30" fill="white" stroke="#ced4da"/>
+        <text x="30" y="110" font-family="Arial" font-size="12" fill="#6c757d">Password</text>
+        <rect x="20" y="140" width="260" height="35" fill="#0d6efd" rx="4"/>
+        <text x="130" y="163" font-family="Arial" font-size="14" fill="white">Login</text>
+    </g>
+
+    <!-- Dashboard -->
+    <g transform="translate(400, 50)">
+        <rect x="0" y="0" width="350" height="500" fill="#f8f9fa" stroke="#dee2e6"/>
+        <text x="140" y="30" font-family="Arial" font-size="16" fill="#212529">Dashboard</text>
+        
+        <!-- New Transaction Form -->
+        <rect x="20" y="50" width="310" height="200" fill="white" stroke="#dee2e6"/>
+        <text x="30" y="75" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">New Transaction</text>
+        <rect x="30" y="90" width="290" height="30" fill="#f8f9fa" stroke="#ced4da"/>
+        <rect x="30" y="130" width="290" height="30" fill="#f8f9fa" stroke="#ced4da"/>
+        <rect x="30" y="170" width="290" height="35" fill="#0d6efd" rx="4"/>
+        <text x="120" y="193" font-family="Arial" font-size="14" fill="white">Complete Transaction</text>
+
+        <!-- Recent Transactions Table -->
+        <rect x="20" y="270" width="310" height="200" fill="white" stroke="#dee2e6"/>
+        <text x="30" y="295" font-family="Arial" font-size="14" font-weight="bold" fill="#212529">Recent Transactions</text>
+        <line x1="30" y1="310" x2="320" y2="310" stroke="#dee2e6"/>
+        <text x="40" y="330" font-family="Arial" font-size="12" fill="#212529">Date</text>
+        <text x="120" y="330" font-family="Arial" font-size="12" fill="#212529">Vehicle</text>
+        <text x="200" y="330" font-family="Arial" font-size="12" fill="#212529">Amount</text>
+    </g>
+</svg>
